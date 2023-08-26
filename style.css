@@ -1,0 +1,811 @@
+body{
+   margin: 0px;
+   padding: 0px;
+   overflow-x: hidden;
+}
+.main{
+   width: 100%;
+   height: 100vh;
+}
+.submain{
+   border-color: aqua;
+}
+#navbar{
+   overflow-x: hidden;
+}
+.navbar{
+   display:flex;
+   justify-content: center;
+   background-image: url(./1.jpg);
+   margin: 5px;
+   border-radius: 0px;
+   position: sticky;
+   top: 0px;
+   overflow-x: hidden;
+   
+} 
+.navbar li a{
+   text-decoration: none;
+}
+.navbar li{
+   list-style-type: none;
+   margin: 20px;
+   padding: 20px;
+}
+.image1{
+margin-right: 20%;
+
+}
+@media( max-width:412px){
+   .logo1{
+      display: block;
+      width: 120px;
+   }
+   .label1{
+      display: block;
+      position: absolute;
+      float: right;
+      left: 350px;
+      top: 20px;
+      font-size:30px;
+   }
+
+
+}
+.landingpage{
+   display:flex;
+   justify-content:center;
+   padding-top: 150px;
+   background-image:url(./1.jpg) ;
+   height: 400px;
+   border-top: 2px solid black;
+   overflow-x: hidden;
+   
+}
+.lindingpage div img{
+   width: 500px;
+}
+.page2{ 
+   height: 200px;
+   width:100%;
+   background-color: rgb(5, 5, 41);
+   overflow-y: hidden;
+
+}
+
+.imgno{
+   margin-left: 180px;
+   padding-left: 50px;
+}
+@media(max-width:412px){
+   .page2{ 
+      height: 200px;
+      width:100%;
+      background-color: rgb(5, 5, 41);
+      overflow-x: hidden;
+   }
+   .imgno{
+      margin-left: 180px;
+      padding-left: 0px;
+   }
+   
+
+}
+.button{
+   border:1px solid black;
+   padding: 10px;
+   border-radius: 50px;
+   color: black;
+   background-color: slategrey;
+}
+.avtar img{
+   width: 450px;
+   height: 463px;
+   margin: -100px;
+   margin-top: -76px;
+}
+
+.button1:hover{
+   color: slategray;
+   background-color: white;
+   cursor: pointer;
+}
+.button2{
+   color: azure;
+   background-color: slategrey;
+   border: 1px solid black;
+   padding: 10px;
+   border-radius: 50px;
+   width: 100px;
+   height: 20px;
+}
+.Dedication{
+   display: flex;
+   justify-content: center;
+   height:auto;
+   padding: 100px;
+   overflow-x: hidden;
+   
+   
+}
+.page3{
+   width: 100%;
+   /* margin: 20px; */
+   overflow-x: hidden;
+   
+}
+.Dedication span{
+   margin-right: 50px;
+}
+
+.image img{
+   width: 80px;
+}
+.image span{
+   font-size: 30px;
+   color: rgb(3, 3, 56);
+   font-weight: 600;
+}
+.image2 img{
+   width: 60px;
+   height: 70px; 
+}
+.image2 span{
+   font-size: 30px;
+   color: rgb(3, 3, 36);
+   font-weight: 600;
+}
+.image3 img{
+   width: 80px;
+   height: 70px;
+}
+.image3 span{
+   font-size: 30px;
+   color: rgb(3, 3, 41);
+   font-weight: 600;
+}
+@media(max-width:412px){
+   .page3{
+      width: 100%;
+      /* margin: 20px; */
+      overflow-x: hidden;
+      display: block;
+   
+      
+   }
+   .image img{
+      width: 80px;
+   }
+   .Dedication{
+      display: flex;
+      justify-content: center;
+      height:auto;
+      padding: 100px;
+      overflow-x: hidden;
+      display: block; 
+   }
+   .image3 img{
+      width: 80px;
+      height: 70px;
+      
+   }
+}
+
+   
+
+/*--====my skills====--*/
+.mainskill{
+   display: grid;
+   grid-template-columns: auto auto;
+   justify-content: center;
+   overflow-x: hidden;
+}
+.paragraph{
+   margin-right: 400px;
+}
+.submain2{
+   display: flex;
+   justify-content: center;
+   font-size: 50px;
+   color: rgb(6, 6, 46);
+   font-weight: 600;
+   margin-right: 500px;
+   font-style: oblique;
+   margin-top: 40px;
+  
+}
+.paragraph{
+   margin-right: 400px;
+}
+/*--== skills==--*/
+.mainskill{
+   display: flex;
+   grid-template-columns: auto auto;
+   justify-content: center;
+   margin-bottom: -25%;
+   overflow-x: hidden;
+   margin-right: 40px;
+
+
+}
+
+
+.skills div{
+   border: 2px solid rgb(7, 7, 82);
+   background-color: white;
+   padding: 20px;
+   margin: 20px;
+   overflow-x: hidden;
+}
+.skills{
+   display: grid;
+   grid-template-columns: auto auto auto;
+   margin: 30px;
+   background-image: url(https://itemsstore.net/html/trito/img/skills/1.jpg) ;
+   overflow-x: hidden;
+   
+   
+   
+}
+.skills{
+padding: 70px;
+margin: 100px;
+margin-left: 750px;
+
+}
+.numbers{
+   display: flex;
+   justify-content: center;
+   font-style:normal;
+   overflow-x: hidden;
+   
+  
+}
+@media(max-width:412px){
+   .skills{
+      display: grid;
+      grid-template-columns: auto auto auto;
+      margin: 30px;
+      background-image: url(https://itemsstore.net/html/trito/img/skills/1.jpg) ;
+      overflow-x: hidden;
+   }
+   .mainskill{
+      display: block;
+      grid-template-columns:auto;
+      justify-content: center;
+      margin-bottom: -25%;
+      overflow-x: hidden;
+      margin-right: 40px;
+   
+   }
+   .numbers{
+      display: block;
+      justify-content: center;
+      font-style:normal;
+      overflow-x: hidden;
+      margin-left: 120px;
+      
+     
+   }
+}
+/*=====about=====*/
+.about{
+   display: flex;
+   background-image: url("https://itemsstore.net/html/trito/img/about/background.jpg");
+   padding: 60px;
+   overflow-x: hidden;
+}
+.about2{
+   display: flex;
+}
+.about3{
+   margin-top: 200px;
+    margin-left: 150px;
+     font-size: 60px; 
+     color: rgb(13, 13, 87);
+      font-weight: 600 ;
+       font-style: oblique;
+}
+.about4{
+   margin-left: 150px;
+    font-size: 20px;
+}
+.twelve{
+   width: 200px;
+   font-size: 30px;
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+   position: absolute;
+   top: 2700px;
+   left: 20px;
+   z-index: 2;
+   border: 3px solid black;
+   background-color: white;
+  
+
+
+}
+.twelve1{
+   font-size: 50px;
+   color: orangered;
+
+}
+
+
+.hire{
+   margin-left: 150px;
+   font-size: 20px;
+   margin-top: 60px;
+   border: 2px;
+}
+@media(max-width:412px){
+   .about{
+      display: block;
+      background-image: url("https://itemsstore.net/html/trito/img/about/background.jpg");
+      padding: 60px;
+      overflow-x: hidden;
+      height: 30%;
+      
+      
+   }
+   .twelve{
+      width: 150px;
+      font-size: 30px;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      top: 3800px;
+      left: 50px;
+      z-index: 4;
+      border: 3px solid black;
+      background-color: white;
+     
+   
+   
+   }
+   .twelve1{
+      font-size: 30px;
+      color: orangered;
+   
+   }
+   .about3{
+      margin-top: 20px;
+       margin-left: 20px;
+        font-size: 40px; 
+        color: rgb(13, 13, 87);
+         font-weight: 600 ;
+          font-style: oblique;
+   }
+   .about4{
+      margin-left: 40px;
+       font-size: 20px;
+   }
+   
+}
+.girl{
+   display: flex;
+   justify-content:center;
+   overflow-x: hidden;
+}
+.girl1{
+   margin-left: 130px ;
+    margin-top: 100px;
+}
+.girl2{
+   margin-top:100px;
+    font-size: 30px;
+     margin-left:0px;
+      color: rgb(21, 21, 114);
+}
+.girl2{
+   margin-top: 100px; 
+   margin-right: 100px;
+    font-size: 20px;
+}
+
+
+@media(max-width:412px){
+   .girl{
+      display: block;
+      justify-content:center;
+      overflow-x: hidden;
+   }
+   .girl1{
+      margin-left: -55px ;
+       margin-top: 100px;
+       width: 30px;
+       height: 50px;
+       
+   }
+   .girl2{
+      margin-top:350px;
+       font-size: 30px;
+        margin-left:40px;
+         color: rgb(21, 21, 114);
+   }
+   .girl2{
+      margin-top: 350px; 
+      margin-right: 80px;
+       font-size: 20px;
+   }
+   
+}
+
+   /*====5 images====*/
+.image1{
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   
+
+
+}
+.image1 div img{
+   width:100%;
+}
+.image1 div img:hover{
+   scale:1.3;
+   transition: scale 2s;
+}
+.image1 div{
+   border: 2px solid black;
+   width: 100%;
+   overflow: hidden;
+   margin: 20px;
+}
+.image2{
+   display: flex;
+   justify-content: center;
+
+}
+.image2 div img{
+   width: 100%;
+   height: 340px;
+}
+.image2 div img:hover{
+   scale: 1.3;
+   transition: scale 2s;
+   
+}
+.image2 div{
+   border: 2px solid black;
+   width: 100%;
+   overflow: hidden;
+   margin: 20px;
+   height: 340px;
+}
+
+
+@media(max-width:412px){
+   .image1{
+      display: block;
+      justify-content: center;
+      width: 80%;
+      margin-left:20px;
+      
+   
+   
+   }
+   .image2{
+      display: block;
+      justify-content: center;
+   
+   }
+   .image2 div img{
+      width: 100%;
+      height: 250px;
+   }
+   .image2 div{
+      border: 2px solid black;
+      width: 80%;
+      overflow: hidden;
+      margin: 20px;
+      height: 200px;
+      margin-left: 10%;
+   }
+
+}
+
+.imagepage{
+   display: flex;
+   justify-content: center;
+   color: rgb(170, 18, 18);
+   font-size: 20px;
+   
+
+}
+.imagepage1{
+   display: flex;
+    justify-content: center;
+     font-size: 60px;
+     color: rgb(12, 12, 104);
+      font-weight: 500 bold;
+}
+.questions div{
+   border: 2px solid rgb(4, 4, 53);
+   background-color:rgb(4, 4, 44);
+   padding: 30px;
+   margin: 20px;
+  
+}
+.questions{
+   margin: 160px;
+   overflow-x: hidden;
+}
+.plus{
+   font-size: 30px;
+   background-color: rgb(31, 167, 167);
+   padding: 5px 10px 5px 10px;
+   color: white;
+   float: right;
+
+}
+
+.show1{
+   color: white;
+   padding: 30px;
+   font-size: 20px !important;
+   
+   display: none;
+}
+#input5:checked~.show1{
+   display: block;
+
+
+}
+.plus1{
+   font-size: 30px;
+   background-color: rgb(31, 167, 167);
+   padding: 5px 10px 5px 10px;
+   color:white;
+   float: right;
+}
+.show2{
+   color: white;
+   padding: 30px;
+   font-size: 20px !important;
+   display: none;
+   
+}
+#input4:checked~.show2{
+   display: block;
+}
+.plus2{
+   font-size: 30px;
+   background-color: rgb(31, 167, 167);
+   padding: 5px 10px 5px 10px;
+   color:white;
+   float: right;
+   overflow-x: hidden;
+}
+.show3{
+   color: white;
+   padding: 30px;
+   font-size: 20px !important;
+   display: none;
+   
+}
+
+#input3:checked~.show3{
+   display: block;
+}
+.plus3{
+   font-size: 30px;
+   background-color: rgb(31, 167, 167);
+   padding: 5px 10px 5px 10px;
+   color:white;
+   float: right;
+   overflow-x: hidden;
+}
+.show4{
+   color: white;
+   padding: 30px;
+   font-size: 20px !important;
+   display: none;
+   
+}
+#input2:checked~.show4{
+   display: block;
+}
+
+.plus4{
+   font-size: 30px;
+   background-color: rgb(31, 167, 167);
+   padding: 5px 10px 5px 10px;
+   color:white;
+   float: right;
+}
+.show5{
+   color: white;
+   padding: 30px;
+   font-size: 20px !important;
+   display: none;
+}
+#input1:checked~.show5{
+   display: block;
+}
+
+
+@media(max-width:412px){
+   .imagepage{
+      display: flex;
+      justify-content: center;
+      color: rgb(170, 18, 18);
+      font-size: 20px;
+      
+   
+   }
+   .imagepage1{
+      display: block;
+       justify-content: center;
+        font-size: 40px;
+        color: rgb(12, 12, 104);
+         font-weight: 500 bold;
+         margin-left: 50px;
+   }
+   .questions div{
+      border: 2px solid rgb(4, 4, 53);
+      background-color:rgb(4, 4, 44);
+      padding: 30px;
+      margin: 20px;
+     
+   }
+   .questions{
+      margin: 10px;
+      overflow-x: hidden;
+   }
+
+
+}
+/*avaibale*/
+
+.available{
+  
+   background-image:url(https://itemsstore.net/html/trito/img/hero/1.jpg) ;
+   overflow-x: hidden;
+   
+   
+}
+.work{
+   display: flex;
+   justify-content: center;
+   font-size: 50px;
+   color: rgb(21, 21, 133);
+   font-weight: 400 bold;
+}
+.button3{
+   display: flex;
+   justify-content: center;
+   padding: 15px;
+   margin-top:250px;
+   font-size: 30px;
+   width: 20%;
+   margin-left: 39%;
+}
+.button3 a{
+   margin-top: -200px;
+}
+@media(max-width:412px){
+   .work{
+      display: block;
+      justify-content: center;
+      font-size: 30px;
+      color: rgb(21, 21, 133);
+      font-weight: 400 bold;
+      margin-left: 95px;
+   }
+
+}
+
+
+    /*blogpage*/ 
+.blog{
+   display: flex;
+   margin-top: 90px;
+   margin-left: 90px;
+   font-size: 20px;
+   color: rgb(187, 33, 33);
+   overflow-x: hidden;
+
+
+}
+.blog2{
+   margin-top: 60px;
+    margin-left: 90px; 
+    font-size: 40px;
+     color: rgb(12, 12, 83);
+}
+.pictures{
+   display: flex;
+  justify-content: center;
+ 
+}
+.pictures div img{
+   width: 100%;
+   height: 250px;
+}
+.pictures div img :hover{
+   scale: 1.2;
+   transition: scale 2s;
+}
+   
+
+.pictures div{
+   border: 2px solid black;
+   overflow: hidden;
+   margin: 20px;
+   height: 220px;
+   border-radius: 120px;
+   
+}
+.posts{
+   display: flex;
+   justify-content: center;
+   font-size: 20px;
+   overflow-x: hidden;
+   
+}
+.date{
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+   overflow-x: hidden;
+}
+@media(mac-width:412px){
+   .blog{
+      display: flex;
+      margin-top: 30px;
+      margin-left: 0px;
+      font-size: 10px;
+      color: rgb(187, 33, 33);
+      overflow-x: hidden;
+   }
+   .blog2{
+      margin-top: 60px;
+       margin-left: 90px; 
+       font-size: 30px;
+        
+   }
+   .pictures{
+      display: block;
+     justify-content: center;
+    
+   }
+
+
+}
+
+
+   /*brands*/
+
+.fa-brands fa-instagram{
+   margin-top: 25%;
+   border: 2px solid white;
+   background-color: antiquewhite;
+}
+.fa-solid fa-basketball{
+   margin-top: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
